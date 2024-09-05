@@ -43,7 +43,7 @@ RETURN false
 
 ```
 
-#### Memory Complexity
+#### Space Complexity
 
 We need an additional array to hold the elements that already seen. In worst case or in another words, the `nums` array does not contains any duplication, the additional array will hold all elements of `nums` array. Thus, the overall memory complexity is `O(n)`
 

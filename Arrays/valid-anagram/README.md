@@ -1,3 +1,7 @@
+> Source: Neetcode150
+
+> Tags: Array, Easy
+
 # Description
 
 Given two strings `s1` and `s2`, return `true` if the two strings are anagrams of each other, otherwise return false.
@@ -56,7 +60,7 @@ return true
 
 ```
 
-#### Memory Complexity
+#### Space Complexity
 
 In this solution, we primarily concern about the two dictionaries/maps that we use to hold the character frequency.
 
