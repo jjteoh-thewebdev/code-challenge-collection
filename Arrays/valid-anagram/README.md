@@ -1,13 +1,13 @@
 # Description
 
-Given two strings `s` and `t`, return `true` if the two strings are anagrams of each other, otherwise return false.
+Given two strings `s1` and `s2`, return `true` if the two strings are anagrams of each other, otherwise return false.
 
 > An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
 
 Example 1:
 
 ```
-Input: s = "racecar", t = "carrace"
+Input: s1 = "racecar", s2 = "carrace"
 
 Output: true
 ```
@@ -15,14 +15,14 @@ Output: true
 Example 2:
 
 ```
-Input: s = "jar", t = "jam"
+Input: s1 = "jar", s2 = "jam"
 
 Output: false
 ```
 
 Constraints:
 
-`s` and `t` only consist of lowercase English letters.
+`s1` and `s2` only consist of lowercase English letters.
 
 #### Solution
 
