@@ -19,7 +19,6 @@ function hasDuplicate(nums) {
 }
 
 /** Tests */
-const solution = new Solution();
 const isAccepted =
   hasDuplicate([1, 2, 3, 3]) === true &&
   hasDuplicate([1, 2]) === false &&
