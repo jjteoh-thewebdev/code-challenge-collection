@@ -1,4 +1,4 @@
-> Source: Neetcode150
+> Source: Neetcode150, LeetCode.1
 
 > Tags: Array, Easy
 
@@ -34,7 +34,7 @@ Constraints:
 
 ### Solution
 
-From the problem, we can derive `x + y = target`. Conventionally, we will have to loop through the input, for each element, x, we need to check any of the rest of the element, y, can perfectly sum up to get result equals to the target.
+From the problem, we can derive `x + y = target`. Conventionally, we will have to loop through the input(brute force), for each element, x, we need to check any of the rest of the element, y, can perfectly sum up to get result equals to the target.
 
 For example:
 `input: [1,2,3] target=5`

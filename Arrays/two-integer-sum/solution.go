@@ -12,7 +12,7 @@ func twoSum(nums []int, target int) []int {
             return []int{idx, index}
         }
 
-        d[x] = i
+        d[x] = index
     }
 
     return []int{-1, -1}
