@@ -1,4 +1,5 @@
 // by popping a char from s2 everytimes we match an element in s1
+// this solution does not work well when s1 or s2 is a long string
 function isAnagram(s1, s2) {
   // condition 1: length must be same
   if (s1.length !== s2.length) return false;

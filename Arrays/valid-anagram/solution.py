@@ -7,7 +7,7 @@ def is_anagram(s1: str, s2: str):
     return Counter(s1) == Counter(s2)
 
 if __name__ == "__main__":
-    isAccepted = is_anagram("racecar", "carrace") and is_anagram("jar", "jam") == False
+    isAccepted = is_anagram("racecar", "carrace") and is_anagram("jar", "jam") == False and is_anagram("aacc", "ccac") == False
     print(f"Your solution is: {'Accepted' if isAccepted else 'Rejected'}")
 
 

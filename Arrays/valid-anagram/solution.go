@@ -33,7 +33,8 @@ func main() {
 	isAccepted := isAnagram("racecar", "carrace") == true && 
 					isAnagram("jar", "jam") == false &&
 						isAnagram("weeow", "weewo") == true &&
-							isAnagram("amana", "aman") == false
+							isAnagram("amana", "aman") == false &&
+								isAnagram("aacc", "ccac") == false
 
 
 	fmt.Printf("Your solution is: %s\n", func() string {
